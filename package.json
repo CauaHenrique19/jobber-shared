@@ -1,5 +1,5 @@
 {
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
   "main": "index.js",
   "description": "Helpers library for Jobber app",
@@ -27,14 +27,18 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
+  "files": [
+    "build",
+    "src"
+  ],
   "exports": {
     ".": {
-      "import": "./esm/index.js",
-      "require": "./cjs/index.js"
+      "import": "./src/index.js",
+      "require": "./esm/index.js"
     },
     "./icons": {
       "import": "./esm/icons/index.js",
-      "require": "./cjs/icons/index.js"
+      "require": "./src/icons/index.js"
     }
   },
   "types": "./src/index.d.ts",

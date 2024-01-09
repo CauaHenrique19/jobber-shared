@@ -13,8 +13,8 @@ export {
   IReduxLogout,
   IAuthResponse,
   IAuthUser,
-} from "./interfaces/auth.interface";
-export { IBuyerDocument, IReduxBuyer } from "./interfaces/buyer.interface";
+} from "./auth.interface";
+export { IBuyerDocument, IReduxBuyer } from "./buyer.interface";
 export {
   IConversationDocument,
   IMessageDocument,
@@ -23,7 +23,7 @@ export {
   IChatSellerProps,
   IChatBuyerProps,
   IChatMessageProps,
-} from "./interfaces/chat.interface";
+} from "./chat.interface";
 export {
   GigType,
   ICreateGig,
@@ -35,7 +35,7 @@ export {
   IGigViewReviewsProps,
   IGigInfo,
   IGigTopProps,
-} from "./interfaces/gig.interface";
+} from "./gig.interface";
 export {
   IOrderNotifcation,
   IOffer,
@@ -45,31 +45,17 @@ export {
   IOrderReview,
   IOrderMessage,
   IOrderDocument,
-} from "./interfaces/order.interface";
+} from "./order.interface";
 export {
   IReviewMessageDetails,
   IRatingTypes,
   IRatingCategories,
   IRatingCategoryItem,
   IReviewDocument,
-} from "./interfaces/review.interface";
-export {
-  ISearchResult,
-  IHitsTotal,
-  IQueryList,
-  IQueryString,
-  ITerm,
-  IPaginateProps,
-} from "./interfaces/search.interface";
-export {
-  SellerType,
-  ILanguage,
-  IExperience,
-  IEducation,
-  ICertificate,
-  ISellerDocument,
-} from "./interfaces/seller.interface";
-export { IEmailLocals } from "./interfaces/email.interface";
+} from "./review.interface";
+export { ISearchResult, IHitsTotal, IQueryList, IQueryString, ITerm, IPaginateProps } from "./search.interface";
+export { SellerType, ILanguage, IExperience, IEducation, ICertificate, ISellerDocument } from "./seller.interface";
+export { IEmailLocals } from "./email.interface";
 export { uploads, videoUpload } from "./cloudinary-upload";
 export {
   IErrorResponse,
