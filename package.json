@@ -1,7 +1,6 @@
 {
-  "version": "0.0.3",
+  "version": "0.0.4",
   "license": "MIT",
-  "main": "index.js",
   "description": "Helpers library for Jobber app",
   "engines": {
     "node": ">=18"
